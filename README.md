@@ -18,6 +18,7 @@
 
 推荐使用xib的方式加载View，不要使用ViewController.xib，应使用XXXView.xib
 
-#### 后续界面直接按如下方法跳转  
+
+#### 后续界面直接按如下方法跳转 
     SecondViewController *vc = [[SecondViewController alloc] init]; 
     [self pushVC:vc];  
