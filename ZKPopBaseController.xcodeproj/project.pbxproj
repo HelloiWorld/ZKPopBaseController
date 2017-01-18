@@ -13,6 +13,14 @@
 		9A16A0691E2F3D7500F084FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A16A0671E2F3D7500F084FC /* Main.storyboard */; };
 		9A16A06B1E2F3D7500F084FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A16A06A1E2F3D7500F084FC /* Assets.xcassets */; };
 		9A16A06E1E2F3D7500F084FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A16A06C1E2F3D7500F084FC /* LaunchScreen.storyboard */; };
+		9A16A0851E2F3F3100F084FC /* PopBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A16A07C1E2F3F3100F084FC /* PopBaseController.m */; };
+		9A16A0871E2F3F3100F084FC /* PopBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A16A0801E2F3F3100F084FC /* PopBottomView.m */; };
+		9A16A0881E2F3F3100F084FC /* CustomPushAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A16A0821E2F3F3100F084FC /* CustomPushAnimation.m */; };
+		9A16A0891E2F3F3100F084FC /* CustomPopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A16A0841E2F3F3100F084FC /* CustomPopAnimation.m */; };
+		9A16A08C1E2F44F800F084FC /* PopBase.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A16A08B1E2F44F800F084FC /* PopBase.bundle */; };
+		9A16A0981E2F589F00F084FC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A16A08F1E2F589E00F084FC /* FirstViewController.m */; };
+		9A16A09B1E2F589F00F084FC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A16A0941E2F589F00F084FC /* SecondViewController.m */; };
+		9A16A0A01E2F712F00F084FC /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A16A09F1E2F712F00F084FC /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,22 @@
 		9A16A06A1E2F3D7500F084FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A16A06D1E2F3D7500F084FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A16A06F1E2F3D7500F084FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A16A07B1E2F3F3100F084FC /* PopBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopBaseController.h; sourceTree = "<group>"; };
+		9A16A07C1E2F3F3100F084FC /* PopBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopBaseController.m; sourceTree = "<group>"; };
+		9A16A07F1E2F3F3100F084FC /* PopBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopBottomView.h; sourceTree = "<group>"; };
+		9A16A0801E2F3F3100F084FC /* PopBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopBottomView.m; sourceTree = "<group>"; };
+		9A16A0811E2F3F3100F084FC /* CustomPushAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPushAnimation.h; sourceTree = "<group>"; };
+		9A16A0821E2F3F3100F084FC /* CustomPushAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPushAnimation.m; sourceTree = "<group>"; };
+		9A16A0831E2F3F3100F084FC /* CustomPopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPopAnimation.h; sourceTree = "<group>"; };
+		9A16A0841E2F3F3100F084FC /* CustomPopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPopAnimation.m; sourceTree = "<group>"; };
+		9A16A08B1E2F44F800F084FC /* PopBase.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PopBase.bundle; sourceTree = "<group>"; };
+		9A16A08D1E2F4D4500F084FC /* PopBaseHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopBaseHeader.h; sourceTree = "<group>"; };
+		9A16A08E1E2F589E00F084FC /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		9A16A08F1E2F589E00F084FC /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		9A16A0931E2F589E00F084FC /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		9A16A0941E2F589F00F084FC /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		9A16A09E1E2F712F00F084FC /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		9A16A09F1E2F712F00F084FC /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +82,17 @@
 		9A16A05D1E2F3D7400F084FC /* ZKPopBaseController */ = {
 			isa = PBXGroup;
 			children = (
+				9A16A07A1E2F3ED700F084FC /* PopBaseController */,
 				9A16A0611E2F3D7500F084FC /* AppDelegate.h */,
 				9A16A0621E2F3D7500F084FC /* AppDelegate.m */,
 				9A16A0641E2F3D7500F084FC /* ViewController.h */,
 				9A16A0651E2F3D7500F084FC /* ViewController.m */,
+				9A16A08E1E2F589E00F084FC /* FirstViewController.h */,
+				9A16A08F1E2F589E00F084FC /* FirstViewController.m */,
+				9A16A0931E2F589E00F084FC /* SecondViewController.h */,
+				9A16A0941E2F589F00F084FC /* SecondViewController.m */,
+				9A16A09E1E2F712F00F084FC /* ThirdViewController.h */,
+				9A16A09F1E2F712F00F084FC /* ThirdViewController.m */,
 				9A16A0671E2F3D7500F084FC /* Main.storyboard */,
 				9A16A06A1E2F3D7500F084FC /* Assets.xcassets */,
 				9A16A06C1E2F3D7500F084FC /* LaunchScreen.storyboard */,
@@ -77,6 +108,23 @@
 				9A16A05F1E2F3D7500F084FC /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A16A07A1E2F3ED700F084FC /* PopBaseController */ = {
+			isa = PBXGroup;
+			children = (
+				9A16A08D1E2F4D4500F084FC /* PopBaseHeader.h */,
+				9A16A07F1E2F3F3100F084FC /* PopBottomView.h */,
+				9A16A0801E2F3F3100F084FC /* PopBottomView.m */,
+				9A16A07B1E2F3F3100F084FC /* PopBaseController.h */,
+				9A16A07C1E2F3F3100F084FC /* PopBaseController.m */,
+				9A16A0811E2F3F3100F084FC /* CustomPushAnimation.h */,
+				9A16A0821E2F3F3100F084FC /* CustomPushAnimation.m */,
+				9A16A0831E2F3F3100F084FC /* CustomPopAnimation.h */,
+				9A16A0841E2F3F3100F084FC /* CustomPopAnimation.m */,
+				9A16A08B1E2F44F800F084FC /* PopBase.bundle */,
+			);
+			path = PopBaseController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A16A08C1E2F44F800F084FC /* PopBase.bundle in Resources */,
 				9A16A06E1E2F3D7500F084FC /* LaunchScreen.storyboard in Resources */,
 				9A16A06B1E2F3D7500F084FC /* Assets.xcassets in Resources */,
 				9A16A0691E2F3D7500F084FC /* Main.storyboard in Resources */,
@@ -150,9 +199,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A16A09B1E2F589F00F084FC /* SecondViewController.m in Sources */,
+				9A16A0851E2F3F3100F084FC /* PopBaseController.m in Sources */,
+				9A16A0891E2F3F3100F084FC /* CustomPopAnimation.m in Sources */,
+				9A16A0871E2F3F3100F084FC /* PopBottomView.m in Sources */,
 				9A16A0661E2F3D7500F084FC /* ViewController.m in Sources */,
 				9A16A0631E2F3D7500F084FC /* AppDelegate.m in Sources */,
+				9A16A0A01E2F712F00F084FC /* ThirdViewController.m in Sources */,
 				9A16A0601E2F3D7500F084FC /* main.m in Sources */,
+				9A16A0881E2F3F3100F084FC /* CustomPushAnimation.m in Sources */,
+				9A16A0981E2F589F00F084FC /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +264,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -253,6 +310,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -270,7 +328,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ZKPopBaseController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pzk.ZKPopBaseController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -281,7 +341,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ZKPopBaseController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pzk.ZKPopBaseController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
