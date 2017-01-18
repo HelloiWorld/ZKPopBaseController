@@ -21,6 +21,7 @@
 		9A16A0981E2F589F00F084FC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A16A08F1E2F589E00F084FC /* FirstViewController.m */; };
 		9A16A09B1E2F589F00F084FC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A16A0941E2F589F00F084FC /* SecondViewController.m */; };
 		9A16A0A01E2F712F00F084FC /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A16A09F1E2F712F00F084FC /* ThirdViewController.m */; };
+		9A16A0A21E2F78D700F084FC /* 0C14A91F-73F6-4680-8207-63E8FEF916F2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A16A0A11E2F78D700F084FC /* 0C14A91F-73F6-4680-8207-63E8FEF916F2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		9A16A0941E2F589F00F084FC /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		9A16A09E1E2F712F00F084FC /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		9A16A09F1E2F712F00F084FC /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		9A16A0A11E2F78D700F084FC /* 0C14A91F-73F6-4680-8207-63E8FEF916F2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0C14A91F-73F6-4680-8207-63E8FEF916F2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				9A16A09E1E2F712F00F084FC /* ThirdViewController.h */,
 				9A16A09F1E2F712F00F084FC /* ThirdViewController.m */,
 				9A16A0671E2F3D7500F084FC /* Main.storyboard */,
+				9A16A0A11E2F78D700F084FC /* 0C14A91F-73F6-4680-8207-63E8FEF916F2.png */,
 				9A16A06A1E2F3D7500F084FC /* Assets.xcassets */,
 				9A16A06C1E2F3D7500F084FC /* LaunchScreen.storyboard */,
 				9A16A06F1E2F3D7500F084FC /* Info.plist */,
@@ -189,6 +192,7 @@
 				9A16A06E1E2F3D7500F084FC /* LaunchScreen.storyboard in Resources */,
 				9A16A06B1E2F3D7500F084FC /* Assets.xcassets in Resources */,
 				9A16A0691E2F3D7500F084FC /* Main.storyboard in Resources */,
+				9A16A0A21E2F78D700F084FC /* 0C14A91F-73F6-4680-8207-63E8FEF916F2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
