@@ -7,14 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-@class PopBaseController;
 #import "PopBaseHeader.h"
 
 @interface PopBottomView : UIView
 
 - (instancetype)initWithType:(PopType)popType;
-
-- (void)initWithSuperVC:(UIViewController*)vc RootVC:(PopBaseController*)baseVC;
 
 @property (nonatomic, strong) UIImageView *imageV;  // 底图展示图片
 

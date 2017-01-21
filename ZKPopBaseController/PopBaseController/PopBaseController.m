@@ -119,7 +119,7 @@
     if (!_leftBar) {
         _leftBar = [UIButton buttonWithType:UIButtonTypeCustom];
         [_leftBar setImage:[UIImage imageNamed:ImageSrcName(@"弹窗-按钮-返回")] forState:UIControlStateNormal];
-        _leftBar.frame = CGRectMake(0, 3*kScreenScale, 25*kScreenScale, 22*kScreenScale);
+        _leftBar.frame = CGRectMake(0, 7*kScreenScale, 25*kScreenScale, 20*kScreenScale);
         [_leftBar addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
     }
     return _leftBar;
@@ -130,7 +130,7 @@
     if (!_rightBar) {
         _rightBar = [UIButton buttonWithType:UIButtonTypeCustom];
         [_rightBar setImage:[UIImage imageNamed:ImageSrcName(@"弹窗-按钮-关闭")] forState:UIControlStateNormal];
-        _rightBar.frame = CGRectMake(self.view.frame.size.width-27*kScreenScale, 3*kScreenScale, 27*kScreenScale, 27*kScreenScale);
+        _rightBar.frame = CGRectMake(self.view.frame.size.width-24*kScreenScale, 5*kScreenScale, 24*kScreenScale, 24*kScreenScale);
         [_rightBar addTarget:self action:@selector(closeVC) forControlEvents:UIControlEventTouchUpInside];
     }
     return _rightBar;
@@ -164,7 +164,7 @@
 #pragma mark - 重写视图过场动画的效果
 - (id<UIViewControllerAnimatedTransitioning>) navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC {
     if (operation == UINavigationControllerOperationPush) {
-        //push的时候是否用我们自己定义的customPush
+        //  push的时候是否用我们自己定义的customPush
         if (_isPresentCustomAnimation == YES) {
             return nil;
         } else {
@@ -173,7 +173,7 @@
             return customPush;
         }
     }else if (operation == UINavigationControllerOperationPop) {
-        //pop的时候是否用我们自己定义的customPop
+        //  pop的时候是否用我们自己定义的customPop
         if (_isPresentCustomAnimation == YES) {
             return nil;
         } else {
