@@ -1,7 +1,7 @@
 # ZKPopBaseController
 可以在一个VC中添加一个窗口大小的VC，并在弹出的VC中跳转到下级界面。重写了Push和Pop的动画  
 适用于一系列窗口式界面多次跳转的情况  
-    ![](https://github.com/HelloiWorld/ZKPopBaseController/blob/master/ZKPopBaseController/0C14A91F-73F6-4680-8207-63E8FEF916F2.png)
+    ![](https://github.com/HelloiWorld/ZKPopBaseController/blob/master/ZKPopBaseController/PopBase.gif)
   
 ## 使用方法  
     #import "PopBottomView.h"  
